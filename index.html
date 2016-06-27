@@ -6,14 +6,23 @@
 	<style>
 		span.done-true {
   			text-decoration: line-through;
-  			color: grey;
+  			color: blue;
 		}
+
+		div {
+    		background-color:grey;
+    		/*color:white;*/
+    		text-align:center;
+    		font-size:300%;
+    		padding:5px; 
+		}
+
 	</style>
 </head>
 
 <body>
 
-	<h2>To do</h2>
+	<h1 style="background-color:lightgrey;font-size:200%; text-align:center;">To do</h1>
 	
 	<div ng-app="myApp" ng-controller="ToDoCtrl" >
 
@@ -34,6 +43,6 @@
 
     </div>
 
-	<script src="javascripts/ctrl1.js"></script>
+	<script src="ctrl1.js"></script>
 </body>
 </html>
